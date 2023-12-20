@@ -114,6 +114,7 @@ main {
     color: #ffffff;
 }
 
+/* Reasons */
 #reasons {
     width: 90%;
     margin-top: 20px;
@@ -152,6 +153,24 @@ main {
 #benefits hr {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
+}
+
+/* Circle cover background */
+#circle-cover-bg {
+    height: 90vw;
+    width: 90vw;
+    background: url(../images/reasons-image.webp) no-repeat top center/cover;
+    margin-bottom: 20px;
+    /* Makes the square into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Footer */
